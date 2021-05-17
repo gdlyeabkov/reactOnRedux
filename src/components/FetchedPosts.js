@@ -16,9 +16,4 @@ export default ()=>{
         return posts.map(post=> <Post post={post} key={post.id}/>)
     
     }
-    // return (
-    //     <div>
-    //         <h1>Fetched Posts</h1>
-    //     </div>
-    // )
 }

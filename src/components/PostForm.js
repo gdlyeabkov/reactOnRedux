@@ -29,7 +29,6 @@ class PostForm extends React.Component{
         return (
         <form onSubmit={this.submitHandler}>
             {this.props.alert && <Alert text={this.props.alert}/> }
-            {/* <h1>Post Form</h1> */}
             <div className="form-group">
                 <label htmlFor="title">заголовок поста</label>
                 <input onChange={this.changeInputHandler} name="title" value={this.state.title} type="text" className="form-control" id="title"/>

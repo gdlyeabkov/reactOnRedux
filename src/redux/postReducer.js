@@ -8,7 +8,6 @@ export const postReducer=(state=initialState,action)=>{
         case CREATE_POST:
             return{
                 ...state,posts:state.posts.concat([action.payload])
-                // ...state,posts:[...state.posts,[action.payload])]
             }
         case FETCH_POSTS:
             return{
